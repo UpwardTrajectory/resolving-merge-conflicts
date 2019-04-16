@@ -5,7 +5,7 @@ class Snake:
 
 class Cobra(Snake):
     """Definitely dangerous, yup."""
-    
+    """KEVINS LOUD EDIT"""
     def bite(self, other):
         """Deliver a dose of venom."""
         print(f'{other} has been bitten by {self}, two puncture wounds begin slowly dripping blood.')
