@@ -17,7 +17,7 @@ class BoaConstrictor(Snake):
     
     def squeeze(self, other):
         """Give a hug."""
-        pass
+        print(f'{self} wraps itself tightly around {other}')
 
     
 class BoatConstrictor(BoaConstrictor):
