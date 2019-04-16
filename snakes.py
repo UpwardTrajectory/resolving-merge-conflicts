@@ -8,7 +8,8 @@ class Cobra(Snake):
     
     def bite(self, other):
         """Deliver a dose of venom."""
-        pass
+        print(f'{other} has been bitten by {self}, two puncture wounds begin slowly dripping blood.')
+	print(f'{other} has been poisoned and desperately requires medical attention.')
 
     
 class BoaConstrictor(Snake):
